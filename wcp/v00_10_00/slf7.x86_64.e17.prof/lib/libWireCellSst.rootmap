@@ -1,0 +1,11 @@
+{ decls }
+namespace WireCellSst {  }
+
+[ libWireCellSst.so ]
+# List of selected classes
+class WireCellSst::FrameDataSource
+class WireCellSst::GeomDataSource
+class WireCellSst::RootEvent
+header WireCellSst/RootEvent.h
+# List of selected namespaces
+namespace WireCellSst

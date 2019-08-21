@@ -1,0 +1,15 @@
+{ decls }
+namespace WireCell {  }
+
+[ libWireCellNav.so ]
+# List of selected classes
+class WireCell::DillDepositor
+class WireCell::FrameDataSource
+class WireCell::GenerativeFDS
+class WireCell::GeomDataSource
+class WireCell::ParamGDS
+class WireCell::PepperDepositor
+class WireCell::SliceDataSource
+class WireCell::ThresholdFDS
+header WireCellNav/FrameDataSource.h
+header WireCellNav/GeomDataSource.h
