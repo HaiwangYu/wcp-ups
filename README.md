@@ -15,7 +15,7 @@ git clone https://github.com/HaiwangYu/wcp-ups.git
 source <path-to-wcp-ups>/setup.sh
 ```
 
-test by
+## test
 ```bash
 ups active | grep wcp
 ```
