@@ -12,7 +12,7 @@
 git clone https://github.com/HaiwangYu/wcp-ups.git
 ```
 
-modify the version files at new location
+modify the [version files](https://github.com/HaiwangYu/wcp-ups/tree/master/wcp/v00_10_00.version) at new location
 
 
 ```bash
