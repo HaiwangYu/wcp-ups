@@ -8,16 +8,19 @@
  
 ## usage
 
+ - 1
 ```bash
 git clone https://github.com/HaiwangYu/wcp-ups.git
 ```
 
+ - 2
 modify the version files at new location
 
+ - 3
 ```bash
 source <path-to-wcp-ups>/setup.sh
 ```
-
+ - 4
 test by
 ```bash
 ups active | grep wcp
