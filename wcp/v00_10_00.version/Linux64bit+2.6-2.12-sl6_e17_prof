@@ -1,0 +1,15 @@
+FILE = version
+PRODUCT = wcp
+VERSION = v00_10_00
+
+#*************************************************
+#
+FLAVOR = Linux64bit+2.6-2.12-sl6
+QUALIFIERS = "e17:prof"
+  DECLARER = yuhw
+  DECLARED = 2019-08-21 17.59.43 GMT
+  MODIFIER = yuhw
+  MODIFIED = 2019-08-21 17.59.43 GMT
+  PROD_DIR = wcp/v00_10_00
+  UPS_DIR = ups
+  TABLE_FILE = /dune/app/users/yuhw/wcp_ups/wcp-ups/wcp/v00_10_00/ups/wcp.table

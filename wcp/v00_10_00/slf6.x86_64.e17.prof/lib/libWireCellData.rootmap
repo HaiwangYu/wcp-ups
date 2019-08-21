@@ -1,0 +1,207 @@
+{ decls }
+namespace units {  }
+namespace std {  }
+namespace WireCell {  }
+namespace WireCell { template <typename T> class D3Vector; }
+
+[ libWireCellData.so ]
+# List of selected classes
+class WireCell::CellChargeMap
+class WireCell::CellIndexMap
+class WireCell::ChargeSequence
+class WireCell::D3Vector<double>
+class WireCell::D3Vector<float>
+class WireCell::Frame
+class WireCell::GeomCell
+class WireCell::GeomCellMap
+class WireCell::GeomCellSelection
+class WireCell::GeomCellSet
+class WireCell::GeomCluster
+class WireCell::GeomClusterSet
+class WireCell::GeomWire
+class WireCell::GeomWireMap
+class WireCell::GeomWireSelection
+class WireCell::GeomWireSet
+class WireCell::GeomWireWireMap
+class WireCell::GeomWireWiresMap
+class WireCell::MergeCellCluster
+class WireCell::MergeGeomCell
+class WireCell::MergeGeomCellSet
+class WireCell::MergeGeomWire
+class WireCell::Point
+class WireCell::PointVector
+class WireCell::Slice
+class WireCell::Trace
+class WireCell::Vector
+class WireCell::VectorPair
+class WireCell::WireChargeMap
+class WireCell::WireIndexMap
+class map<WireCell::GeomCell const*,float>
+class map<WireCell::GeomCell const*,int>
+class map<WireCell::GeomCell const*,vector<WireCell::GeomWire const*> >
+class map<WireCell::GeomWire const*,WireCell::GeomWire*>
+class map<WireCell::GeomWire const*,float>
+class map<WireCell::GeomWire const*,int>
+class map<WireCell::GeomWire const*,vector<WireCell::GeomCell const*> >
+class map<WireCell::GeomWire const*,vector<WireCell::GeomWire const*> >
+class map<const WireCell::GeomCell*,float>
+class map<const WireCell::GeomCell*,int>
+class map<const WireCell::GeomCell*,vector<const WireCell::GeomWire*> >
+class map<const WireCell::GeomWire*,WireCell::GeomWire*>
+class map<const WireCell::GeomWire*,float>
+class map<const WireCell::GeomWire*,int>
+class map<const WireCell::GeomWire*,vector<const WireCell::GeomCell*> >
+class map<const WireCell::GeomWire*,vector<const WireCell::GeomWire*> >
+class pair<WireCell::D3Vector<double>,WireCell::D3Vector<double> >
+class set<WireCell::GeomCell,WireCell::GeomCellCompare>
+class set<WireCell::GeomCluster*>
+class set<WireCell::GeomWire>
+class set<WireCell::MergeGeomCell*,WireCell::MergeGeomCellCompare>
+class vector<WireCell::D3Vector<float> >
+class vector<WireCell::GeomCell const*>
+class vector<WireCell::GeomWire const*>
+class vector<const WireCell::GeomCell*>
+class vector<const WireCell::GeomWire*>
+class vector<float>
+class vector<set<WireCell::MergeGeomCell const*> >
+class vector<set<const WireCell::MergeGeomCell*> >
+header WireCellData/GeomCell.h
+header WireCellData/GeomWire.h
+header WireCellData/MergeGeomCell.h
+header WireCellData/Trace.h
+# List of selected namespaces
+namespace WireCell
+namespace units
+# List of selected typedefs and outer classes
+# List of selected vars
+var units::pi
+var units::twopi
+var units::halfpi
+var units::pi2
+var units::millimeter
+var units::millimeter2
+var units::millimeter3
+var units::centimeter
+var units::centimeter2
+var units::centimeter3
+var units::meter
+var units::meter2
+var units::meter3
+var units::kilometer
+var units::kilometer2
+var units::kilometer3
+var units::parsec
+var units::micrometer
+var units::nanometer
+var units::angstrom
+var units::fermi
+var units::barn
+var units::millibarn
+var units::microbarn
+var units::nanobarn
+var units::picobarn
+var units::nm
+var units::um
+var units::mm
+var units::mm2
+var units::mm3
+var units::cm
+var units::cm2
+var units::cm3
+var units::m
+var units::m2
+var units::m3
+var units::km
+var units::km2
+var units::km3
+var units::pc
+var units::radian
+var units::milliradian
+var units::degree
+var units::steradian
+var units::rad
+var units::mrad
+var units::sr
+var units::deg
+var units::nanosecond
+var units::second
+var units::millisecond
+var units::microsecond
+var units::picosecond
+var units::hertz
+var units::kilohertz
+var units::megahertz
+var units::ns
+var units::s
+var units::ms
+var units::eplus
+var units::e_SI
+var units::coulomb
+var units::megaelectronvolt
+var units::electronvolt
+var units::kiloelectronvolt
+var units::gigaelectronvolt
+var units::teraelectronvolt
+var units::petaelectronvolt
+var units::joule
+var units::MeV
+var units::eV
+var units::keV
+var units::GeV
+var units::TeV
+var units::PeV
+var units::kilogram
+var units::gram
+var units::milligram
+var units::kg
+var units::g
+var units::mg
+var units::watt
+var units::newton
+var units::pascal
+var units::bar
+var units::atmosphere
+var units::ampere
+var units::milliampere
+var units::microampere
+var units::nanoampere
+var units::megavolt
+var units::kilovolt
+var units::volt
+var units::ohm
+var units::farad
+var units::millifarad
+var units::microfarad
+var units::nanofarad
+var units::picofarad
+var units::weber
+var units::tesla
+var units::gauss
+var units::kilogauss
+var units::henry
+var units::kelvin
+var units::mole
+var units::becquerel
+var units::curie
+var units::kilobecquerel
+var units::megabecquerel
+var units::gigabecquerel
+var units::millicurie
+var units::microcurie
+var units::Bq
+var units::kBq
+var units::MBq
+var units::GBq
+var units::Ci
+var units::mCi
+var units::uCi
+var units::gray
+var units::kilogray
+var units::milligray
+var units::microgray
+var units::candela
+var units::lumen
+var units::lux
+var units::perCent
+var units::perThousand
+var units::perMillion

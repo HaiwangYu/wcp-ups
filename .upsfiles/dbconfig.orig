@@ -1,0 +1,10 @@
+FILE = DBCONFIG
+AUTHORIZED_NODES = *
+VERSION_SUBDIR = 1
+PROD_DIR_PREFIX = ${UPS_THIS_DB}
+UPD_USERCODE_DIR = ${UPS_THIS_DB}/.updfiles
+MAN_TARGET_DIR = ${UPS_THIS_DB}/man
+CATMAN_TARGET_DIR = ${UPS_THIS_DB}/catman
+# don't set setups dir, use relocatable setups script
+#SETUPS_DIR = ${UPS_THIS_DB}
+
