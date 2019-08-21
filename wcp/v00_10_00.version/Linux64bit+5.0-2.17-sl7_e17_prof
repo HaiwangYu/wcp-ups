@@ -12,4 +12,4 @@ QUALIFIERS = "e17:prof"
   MODIFIED = 2019-08-20 19.13.42 GMT
   PROD_DIR = wcp/v00_10_00
   UPS_DIR = ups
-  TABLE_FILE = /dune/app/users/yuhw/wcp_ups/wcp-ups/wcp/v00_10_00/ups/wcp.table
+  TABLE_FILE = wcp.table
