@@ -20,6 +20,7 @@ Qualifiers = "e17:prof"
   Action = GetProducts
     setupRequired( root v6_12_06a -q +e17:+prof )
     setupRequired( boost v1_66_0a -q +e17:+prof )
+    setupRequired( eigen v3_3_4a )
 
 
 Common:

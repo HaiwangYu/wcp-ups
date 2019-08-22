@@ -23,7 +23,7 @@ path-append ()
 }
 
 source /cvmfs/uboone.opensciencegrid.org/products/setup_uboone.sh
-setup uboonecode v08_00_00_16 -q e17:prof
+#setup uboonecode v08_00_00_16 -q e17:prof
 
 echo "setup wcp"
 product_dir=$(dirname "$(readlink -f ${BASH_SOURCE[0]})")
