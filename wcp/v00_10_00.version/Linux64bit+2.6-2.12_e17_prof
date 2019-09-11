@@ -1,0 +1,15 @@
+FILE = version
+PRODUCT = wcp
+VERSION = v00_10_00
+
+#*************************************************
+#
+FLAVOR = Linux64bit+2.6-2.12
+QUALIFIERS = "e17:prof"
+  DECLARER = yuhw
+  DECLARED = 2019-09-11 18.47.47 GMT
+  MODIFIER = yuhw
+  MODIFIED = 2019-09-11 18.47.47 GMT
+  PROD_DIR = wcp/v00_10_00
+  UPS_DIR = ups
+  TABLE_FILE = wcp.table
