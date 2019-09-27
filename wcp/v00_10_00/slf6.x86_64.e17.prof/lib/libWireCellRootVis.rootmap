@@ -1,8 +1,0 @@
-{ decls }
-namespace WireCellRootVis {  }
-
-[ libWireCellRootVis.so ]
-# List of selected classes
-class WireCellRootVis::ViewGDS
-# List of selected namespaces
-namespace WireCellRootVis

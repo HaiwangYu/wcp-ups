@@ -1,9 +1,0 @@
-{ decls }
-namespace WireCell {  }
-
-[ libWireCellTiling.so ]
-# List of selected classes
-class WireCell::BogusTiling
-class WireCell::TileMaker
-class WireCell::TilingBase
-header WireCellTiling/TilingBase.h
