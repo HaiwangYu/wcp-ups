@@ -28,6 +28,11 @@ Source setup.sh
 source <path-to-wcp-ups>/setup.sh
 ```
 
+setup wcp ups like:
+```bash
+setup wcp v00_11_00 -q e17:prof
+```
+
 ## test
 ```bash
 ups active | grep wcp
