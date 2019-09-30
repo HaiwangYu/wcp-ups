@@ -1,5 +1,8 @@
 # wcp-ups
 
+## Source repository:
+https://github.com/BNLIF/wire-cell
+
 ## status
  - Available for SL6 and SL7 (ups flavor)
  - refer ups denpendencies in the wcp.table file
